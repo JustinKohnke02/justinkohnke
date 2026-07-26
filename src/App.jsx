@@ -21,7 +21,7 @@ const META = {
   site: "justin-kohnke.com",
   contact: {
     email: cv.email,
-    cvPdf: "/cv.pdf",
+    cvPdf: `${import.meta.env.BASE_URL}cv.pdf`,
   },
 };
 

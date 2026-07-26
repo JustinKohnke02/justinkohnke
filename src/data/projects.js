@@ -1,3 +1,5 @@
+const BASE = import.meta.env.BASE_URL;
+
 export const projects = [
   {
     id: "a4",
@@ -24,8 +26,8 @@ export const projects = [
     year: "2025–2026",
     role: "Team-Projekt (5 Studierende) — TU Berlin",
     tags: ["RAG", "LLM", "FastAPI", "React"],
-    cover: "/works/a1hero.jpg",     // du hast a1hero.jpg im public/works
-    images: ["/works/a1hero.jpg"],  // später mehr hinzufügen
+    cover: `${BASE}works/a1hero.jpg`,     // du hast a1hero.jpg im public/works
+    images: [`${BASE}works/a1hero.jpg`],  // später mehr hinzufügen
     desc: "Automatisiert die Sichtung wissenschaftlicher Literatur mit KI — Screening-Pipeline getestet an 952 Papern mit 94 % Genauigkeit.",
     bullets: [
       "Modulare Pipeline (Onboarding → Discovery → Screening → Extraktion → RAG-Synthese), jede Stage einzeln auditierbar und wiederholbar",
@@ -42,8 +44,8 @@ export const projects = [
     year: "seit 2022",
     role: "IT Consultant — ISAAC GmbH",
     tags: ["Power Platform", "C#", "Consulting"],
-    cover: "/works/FlowIsaac.png",
-    images: ["/works/FlowIsaac.png", "/works/Isaac-Website.png"],
+    cover: `${BASE}works/FlowIsaac.png`,
+    images: [`${BASE}works/FlowIsaac.png`, `${BASE}works/Isaac-Website.png`],
     desc: "Digitalisierung von Kundenprozessen mit Power Apps und Power Automate — von der Analyse bis zur produktiven Lösung.",
     bullets: [
       "Power Apps- und Power Automate-Flows für automatisierte Dokumentenverarbeitung (Amagno)",
@@ -61,8 +63,8 @@ export const projects = [
     year: "2023–2024",
     role: "Web Design & Development",
     tags: ["Web Development", "CMS", "Content-Strategie"],
-    cover: "/works/a2hero.jpg",
-    images: ["/works/a2hero.jpg"],
+    cover: `${BASE}works/a2hero.jpg`,
+    images: [`${BASE}works/a2hero.jpg`],
     desc: "Komplette Entwicklung von Konzeption bis Deployment: eine skalierbare Content-Plattform inklusive CMS und Podcast-Integration.",
     bullets: [
       "Konzipierte und entwickelte die Website im Food- und Lifestyle-Bereich",
@@ -79,12 +81,12 @@ export const projects = [
     year: "2024",
     role: "Bachelorarbeit — TU Berlin",
     tags: ["UX Research", "Usability Testing", "UEQ"],
-    cover: "/works/NewPIa.png",
+    cover: `${BASE}works/NewPIa.png`,
     images: [
-      "/works/PiaInitial.png",
-      "/works/NewPIa.png",
-      "/works/ueq_results.png",
-      "/works/relatedstudies.png",
+      `${BASE}works/PiaInitial.png`,
+      `${BASE}works/NewPIa.png`,
+      `${BASE}works/ueq_results.png`,
+      `${BASE}works/relatedstudies.png`,
     ],
     desc: "Steigerte Effizienz und Nutzerfreundlichkeit des Personal Information Assistant (PIA) messbar durch einen zyklischen UX-Redesign-Prozess mit UEQ-Evaluation.",
     bullets: [
@@ -102,8 +104,8 @@ export const projects = [
     year: "2025–2026",
     role: "Wissenschaftliche Seminararbeiten — TU Berlin, Musikinformatik und Medienkunst",
     tags: ["Musikwissenschaft", "KI", "Urheberrecht"],
-    cover: "/works/a6-packagedsounds-clearance.jpg",
-    images: ["/works/a6-packagedsounds-clearance.jpg"],
+    cover: `${BASE}works/a6-packagedsounds-clearance.jpg`,
+    images: [`${BASE}works/a6-packagedsounds-clearance.jpg`],
     desc: "Zwei wissenschaftliche Arbeiten zu KI, Musikproduktion und Urheberrecht — von Sample-Packs bis KI-Stimmklonung.",
     bullets: [
       "Packaged Sounds: Wie Sample-Packs und das Label EC2A die klangliche Identität von UK Garage standardisieren",
@@ -120,8 +122,8 @@ export const projects = [
     year: "2026 · in Arbeit",
     role: "Konzept, 3D-Rekonstruktion & Audio — Team-Projekt, TU Berlin",
     tags: ["VR", "Photogrammetrie", "Unity"],
-    cover: "/works/jonnyknueppel-booth.jpg",
-    images: ["/works/jonnyknueppel-booth.jpg", "/works/jonnyknueppel-floor2.jpg"],
+    cover: `${BASE}works/jonnyknueppel-booth.jpg`,
+    images: [`${BASE}works/jonnyknueppel-booth.jpg`, `${BASE}works/jonnyknueppel-floor2.jpg`],
     desc: "Rekonstruiert einen Berliner Club als begehbare VR-Erfahrung per Fotogrammetrie und räumlichem Audio — Team-Projekt mit 6 Personen.",
     bullets: [
       "3D-Rekonstruktion des Clubs per iPhone-Fotogrammetrie mit Reality Scan und Postshot (Gaussian Splatting)",
