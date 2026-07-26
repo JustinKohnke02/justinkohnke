@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --paper: #ffffff;
+  --panel: #ffffff;
+  --card: #ffffff;
+  --card-rgb: 255,255,255;
+  --ink: #0a0a0a;
+  --muted: rgba(10,10,10,.62);
+  --line: rgba(10,10,10,.12);
+  --accent: #4cb3ac;
+  --accent-rgb: 76,179,172;
+  --on-accent: #ffffff;
+}
+
+html, body, #root { height: 100%; }
+body{
+  background-color: var(--paper);
+  color: var(--ink);
+  overflow-wrap: break-word;
+}
+
+@media (min-width: 1101px){
+  html, body{ overflow: hidden; }
+}
+
+::selection{ background: rgba(76,179,172,.18); }
+
+.h1 { font-family: "Bangers", system-ui, sans-serif; }
+.marker { font-family: "Permanent Marker", system-ui, sans-serif; }
+body { font-family: "Inter", system-ui, sans-serif; }
