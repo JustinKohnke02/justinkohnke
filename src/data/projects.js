@@ -28,7 +28,7 @@ export const projects = [
     tags: ["RAG", "LLM", "FastAPI", "React"],
     cover: `${BASE}works/a1hero.jpg`,     // du hast a1hero.jpg im public/works
     images: [`${BASE}works/a1hero.jpg`],  // später mehr hinzufügen
-    desc: "Automatisiert die Sichtung wissenschaftlicher Literatur mit KI — Screening-Pipeline getestet an 952 Papern mit 94 % Genauigkeit.",
+    desc: "Automatisiert die Sichtung wissenschaftlicher Literatur mit KI.",
     bullets: [
       "Modulare Pipeline (Onboarding → Discovery → Screening → Extraktion → RAG-Synthese), jede Stage einzeln auditierbar und wiederholbar",
       "Screening gegen den Synergy-Benchmark evaluiert (952 Paper): 94,4% Accuracy bei stark unausgeglichener Klassenverteilung",

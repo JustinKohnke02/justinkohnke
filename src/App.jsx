@@ -60,7 +60,14 @@ export default function App() {
             <div>
               <div className="metaTitle">{META.titleCenter}</div>
               <div className="metaSub">
-                <span className="smallLink">{META.site}</span>
+                <a
+                  className="smallLink"
+                  href="https://justinkohnke02.github.io/justinkohnke/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {META.site}
+                </a>
               </div>
             </div>
 
