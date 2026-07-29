@@ -28,7 +28,7 @@ export const projects = [
     tags: ["RAG", "LLM", "FastAPI", "React"],
     cover: `${BASE}works/a1hero.jpg`,     // du hast a1hero.jpg im public/works
     images: [`${BASE}works/a1hero.jpg`],  // später mehr hinzufügen
-    desc: "Automatisiert die Sichtung wissenschaftlicher Literatur mit KI.",
+    desc: "Uni-Projekt (TU Berlin, 5-köpfiges Team): KI-gestützte Plattform zur automatisierten Analyse wissenschaftlicher Literatur mit RAG und LLMs.",
     bullets: [
       "Modulare Pipeline (Onboarding → Discovery → Screening → Extraktion → RAG-Synthese), jede Stage einzeln auditierbar und wiederholbar",
       "Screening gegen den Synergy-Benchmark evaluiert (952 Paper): 94,4% Accuracy bei stark unausgeglichener Klassenverteilung",
@@ -46,7 +46,7 @@ export const projects = [
     tags: ["Power Platform", "C#", "Consulting"],
     cover: `${BASE}works/FlowIsaac.png`,
     images: [`${BASE}works/FlowIsaac.png`, `${BASE}works/Isaac-Website.png`],
-    desc: "Digitalisierung von Kundenprozessen mit Power Apps und Power Automate — von der Analyse bis zur produktiven Lösung.",
+    desc: "IT Consultant bei ISAAC GmbH: Digitalisiert Kundenprozesse mit Power Apps, Power Automate und C#.",
     bullets: [
       "Power Apps- und Power Automate-Flows für automatisierte Dokumentenverarbeitung (Amagno)",
       "Schulungen und Kundengespräche zur Einführung digitaler Lösungen",
@@ -65,7 +65,7 @@ export const projects = [
     tags: ["Web Development", "CMS", "Content-Strategie"],
     cover: `${BASE}works/a2hero.jpg`,
     images: [`${BASE}works/a2hero.jpg`],
-    desc: "Komplette Entwicklung von Konzeption bis Deployment: eine skalierbare Content-Plattform inklusive CMS und Podcast-Integration.",
+    desc: "Web Designer & Entwickler für Brot Mit Ei: Konzeption und Umsetzung einer Content-Plattform mit CMS und Podcast-Hub.",
     bullets: [
       "Konzipierte und entwickelte die Website im Food- und Lifestyle-Bereich",
       "Digitaler Auftritt mit Fokus auf Markenidentität und Nutzerfreundlichkeit",
@@ -88,7 +88,7 @@ export const projects = [
       `${BASE}works/ueq_results.png`,
       `${BASE}works/relatedstudies.png`,
     ],
-    desc: "Steigerte Effizienz und Nutzerfreundlichkeit des Personal Information Assistant (PIA) messbar durch einen zyklischen UX-Redesign-Prozess mit UEQ-Evaluation.",
+    desc: "Bachelorarbeit (TU Berlin): UX-Redesign des Personal Information Assistant (PIA), evaluiert mit UEQ und Experteninterviews.",
     bullets: [
       "UEQ-Evaluation & Experten-Interviews als Ausgangsbasis",
       "Prototyping & Redesign des Interfaces basierend auf dem Feedback",
@@ -106,7 +106,7 @@ export const projects = [
     tags: ["Musikwissenschaft", "KI", "Urheberrecht"],
     cover: `${BASE}works/a6-packagedsounds-clearance.jpg`,
     images: [`${BASE}works/a6-packagedsounds-clearance.jpg`],
-    desc: "Zwei wissenschaftliche Arbeiten zu KI, Musikproduktion und Urheberrecht — von Sample-Packs bis KI-Stimmklonung.",
+    desc: "Wissenschaftliche Seminararbeiten (TU Berlin): Analyse von KI in der Musikproduktion und im Urheberrecht, u. a. zu Sample-Packs und KI-Stimmklonung.",
     bullets: [
       "Packaged Sounds: Wie Sample-Packs und das Label EC2A die klangliche Identität von UK Garage standardisieren",
       "The End of Clearance?: Fallstudie zu ElevenLabs und der Herausforderung klassischer Sample-Clearance-Logik durch KI-Stimmmodelle",
@@ -124,7 +124,7 @@ export const projects = [
     tags: ["VR", "Photogrammetrie", "Unity"],
     cover: `${BASE}works/jonnyknueppel-booth.jpg`,
     images: [`${BASE}works/jonnyknueppel-booth.jpg`, `${BASE}works/jonnyknueppel-floor2.jpg`],
-    desc: "Rekonstruiert einen Berliner Club als begehbare VR-Erfahrung per Fotogrammetrie und räumlichem Audio — Team-Projekt mit 6 Personen.",
+    desc: "Team-Projekt (TU Berlin, 6 Personen): VR-Rekonstruktion eines Berliner Clubs per Fotogrammetrie und räumlichem Audio.",
     bullets: [
       "3D-Rekonstruktion des Clubs per iPhone-Fotogrammetrie mit Reality Scan und Postshot (Gaussian Splatting)",
       "Räumliche Audioaufnahme mit Eigenmike und Verarbeitung in Reaper für ein immersives Klangbild",
