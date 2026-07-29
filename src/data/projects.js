@@ -22,7 +22,7 @@ export const projects = [
   {
     id: "a1",
     code: "A1",
-    title: "AutoReview",
+    title: "AutoReview — KI für Literaturrecherche",
     year: "2025–2026",
     role: "Team-Projekt (5 Studierende) — TU Berlin",
     tags: ["RAG", "LLM", "FastAPI", "React"],
@@ -40,7 +40,7 @@ export const projects = [
   {
     id: "a3",
     code: "A3",
-    title: "ISAAC",
+    title: "ISAAC — IT Consultant",
     year: "seit 2022",
     role: "IT Consultant — ISAAC GmbH",
     tags: ["Power Platform", "C#", "Consulting"],
@@ -59,7 +59,7 @@ export const projects = [
   {
     id: "a2",
     code: "A2",
-    title: "Brot mit Ei",
+    title: "Brot mit Ei — Website & Content-Plattform",
     year: "2023–2024",
     role: "Web Design & Development",
     tags: ["Web Development", "CMS", "Content-Strategie"],
@@ -118,7 +118,7 @@ export const projects = [
   {
     id: "a7",
     code: "A7",
-    title: "Where is Jonny?",
+    title: "Where is Jonny? — VR-Clubarchivierung",
     year: "2026 · in Arbeit",
     role: "Konzept, 3D-Rekonstruktion & Audio — Team-Projekt, TU Berlin",
     tags: ["VR", "Photogrammetrie", "Unity"],
