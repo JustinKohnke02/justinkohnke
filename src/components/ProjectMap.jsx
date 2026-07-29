@@ -8,7 +8,6 @@ export default function ProjectMap({ projects, onOpen }) {
               <img className="img imgContain" src={p.cover} alt="" draggable={false} />
             ) : (
               <div className="coverPlaceholder">
-                <span className="coverPlaceholderCode">{p.code}</span>
                 <span className="coverPlaceholderTitle">{p.title}</span>
               </div>
             )}

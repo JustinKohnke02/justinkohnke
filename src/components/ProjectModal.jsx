@@ -12,7 +12,7 @@ export default function ProjectModal({ project, onClose }) {
       <div className="modal" onMouseDown={(e) => e.stopPropagation()}>
         <div className="modalTop">
           <div>
-            <b>{project.code}</b> — {project.title}{" "}
+            <b>{project.title}</b>{" "}
             <span style={{ color: "var(--muted)" }}>· {project.year}</span>
           </div>
           <button className="btn" onClick={onClose}>Close</button>
@@ -31,7 +31,6 @@ export default function ProjectModal({ project, onClose }) {
             ) : (
               <div className="frame" style={{ aspectRatio: "16/9" }}>
                 <div className="coverPlaceholder">
-                  <span className="coverPlaceholderCode">{project.code}</span>
                   <span className="coverPlaceholderTitle">{project.title}</span>
                 </div>
               </div>
